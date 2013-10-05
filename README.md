@@ -43,7 +43,7 @@ Within a Plist file define:
 + integer as Number
 + float as Number
 + timeInterval as Number
-+ color as String (hex-value)
++ color as String (hex-value without the '#')
 + CGPoint as a dictionary containing two values (named x and y) as Number
 + CGSize as a dictionary containing two values (named width and height) as Number
 + CGRecht as a dictionary containing four values (x,y,width and height) as Number
