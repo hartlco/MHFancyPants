@@ -44,6 +44,7 @@
 + (void)configWithPlistName:(NSString *)name {
     NSString *themeFilePath = [[NSBundle mainBundle] pathForResource:name ofType:@"plist"];
     MHFancyPants *loader = [self sharedInstance];
+    [loader.colorCache removeAllObjects];
     loader.theme = [NSDictionary dictionaryWithContentsOfFile:themeFilePath];
 }
 
