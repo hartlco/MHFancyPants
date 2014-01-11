@@ -34,5 +34,6 @@
 + (CGPoint)pointForKey:(NSString *)key;
 + (CGSize)sizeForKey:(NSString *)key;
 + (CGRect)rectForKey:(NSString *)key;
++ (UIEdgeInsets)edgeInsetsForKey:(NSString *)key;
 
 @end

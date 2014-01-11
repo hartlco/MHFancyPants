@@ -32,6 +32,7 @@ Call "configWithPlistName" inside your didFinishLaunchingWithOptions-method cont
 + (CGPoint)pointForKey:(NSString *)key;
 + (CGSize)sizeForKey:(NSString *)key;
 + (CGRect)rectForKey:(NSString *)key;
++ (UIEdgeInsets)edgeInsetsForKey:(NSString *)key;
 ```
 
 ## Define the values
@@ -47,6 +48,7 @@ Within a Plist file define:
 + CGPoint as a dictionary containing two values (named x and y) as Number
 + CGSize as a dictionary containing two values (named width and height) as Number
 + CGRecht as a dictionary containing four values (x,y,width and height) as Number
++ UIEdgeInsets as a dictionary containing four values (top, left, bottom and right) as Number
 
 
 # License MIT

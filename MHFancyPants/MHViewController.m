@@ -28,6 +28,8 @@
     
     self.ibLabel.text = [MHFancyPants stringForKey:@"text"];
     
+    NSLog(@"%@", NSStringFromUIEdgeInsets([MHFancyPants edgeInsetsForKey:@"uiedgetest"]));
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated {

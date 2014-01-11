@@ -159,6 +159,15 @@
     return rect;
 }
 
++ (UIEdgeInsets)edgeInsetsForKey:(NSString *)key {
+    CGFloat top = [self floatForKey:[key stringByAppendingString:@".top"]];
+    CGFloat left = [self floatForKey:[key stringByAppendingString:@".left"]];
+    CGFloat bottom = [self floatForKey:[key stringByAppendingString:@".bottom"]];
+    CGFloat right = [self floatForKey:[key stringByAppendingString:@".right"]];
+    
+    return UIEdgeInsetsMake(top, left, bottom, right);
+}
+
 #pragma mark - Helper-Methods
 
 - (NSString *)stringForKey:(NSString *)key {

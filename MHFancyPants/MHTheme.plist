@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>uiedgetest</key>
+	<dict>
+		<key>right</key>
+		<real>4.5</real>
+		<key>bottom</key>
+		<real>3.5</real>
+		<key>left</key>
+		<real>2.5</real>
+		<key>top</key>
+		<real>1.5</real>
+	</dict>
 	<key>view2Center</key>
 	<dict>
 		<key>x</key>
