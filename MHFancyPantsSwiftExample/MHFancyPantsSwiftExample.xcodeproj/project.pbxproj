@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5C5206819837B3F00ECA0DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C5206719837B3F00ECA0DC /* AppDelegate.swift */; };
+		C5C5206A19837B3F00ECA0DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C5206919837B3F00ECA0DC /* ViewController.swift */; };
+		C5C5206D19837B3F00ECA0DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C5206B19837B3F00ECA0DC /* Main.storyboard */; };
+		C5C5206F19837B3F00ECA0DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C5206E19837B3F00ECA0DC /* Images.xcassets */; };
+		C5C5207B19837B3F00ECA0DC /* MHFancyPantsSwiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C5207A19837B3F00ECA0DC /* MHFancyPantsSwiftExampleTests.swift */; };
+		C5C5209019837EE200ECA0DC /* MHTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5C5208F19837EE200ECA0DC /* MHTheme.plist */; };
+		C5C52093198382FC00ECA0DC /* MHFancyPants.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C52092198382FC00ECA0DC /* MHFancyPants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5C5207519837B3F00ECA0DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5C5205A19837B3E00ECA0DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5C5206119837B3F00ECA0DC;
+			remoteInfo = MHFancyPantsSwiftExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5C5206219837B3F00ECA0DC /* MHFancyPantsSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHFancyPantsSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C5206619837B3F00ECA0DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5C5206719837B3F00ECA0DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5C5206919837B3F00ECA0DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5C5206C19837B3F00ECA0DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5C5206E19837B3F00ECA0DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5C5207419837B3F00ECA0DC /* MHFancyPantsSwiftExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHFancyPantsSwiftExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C5207919837B3F00ECA0DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5C5207A19837B3F00ECA0DC /* MHFancyPantsSwiftExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHFancyPantsSwiftExampleTests.swift; sourceTree = "<group>"; };
+		C5C5208419837B5C00ECA0DC /* MHFancyPantsSwiftExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MHFancyPantsSwiftExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		C5C5208C19837DEE00ECA0DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C5C5208F19837EE200ECA0DC /* MHTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MHTheme.plist; sourceTree = "<group>"; };
+		C5C52091198382FC00ECA0DC /* MHFancyPants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHFancyPants.h; path = ../../../MHFancyPants/Classes/MHFancyPants.h; sourceTree = "<group>"; };
+		C5C52092198382FC00ECA0DC /* MHFancyPants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHFancyPants.m; path = ../../../MHFancyPants/Classes/MHFancyPants.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5C5205F19837B3F00ECA0DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C5207119837B3F00ECA0DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5C5205919837B3E00ECA0DC = {
+			isa = PBXGroup;
+			children = (
+				C5C5208C19837DEE00ECA0DC /* UIKit.framework */,
+				C5C5206419837B3F00ECA0DC /* MHFancyPantsSwiftExample */,
+				C5C5207719837B3F00ECA0DC /* MHFancyPantsSwiftExampleTests */,
+				C5C5206319837B3F00ECA0DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5C5206319837B3F00ECA0DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5C5206219837B3F00ECA0DC /* MHFancyPantsSwiftExample.app */,
+				C5C5207419837B3F00ECA0DC /* MHFancyPantsSwiftExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5C5206419837B3F00ECA0DC /* MHFancyPantsSwiftExample */ = {
+			isa = PBXGroup;
+			children = (
+				C5C5208819837DB100ECA0DC /* Classes */,
+				C5C5206719837B3F00ECA0DC /* AppDelegate.swift */,
+				C5C5206919837B3F00ECA0DC /* ViewController.swift */,
+				C5C5206B19837B3F00ECA0DC /* Main.storyboard */,
+				C5C5206E19837B3F00ECA0DC /* Images.xcassets */,
+				C5C5206519837B3F00ECA0DC /* Supporting Files */,
+				C5C5208419837B5C00ECA0DC /* MHFancyPantsSwiftExample-Bridging-Header.h */,
+				C5C5208F19837EE200ECA0DC /* MHTheme.plist */,
+			);
+			path = MHFancyPantsSwiftExample;
+			sourceTree = "<group>";
+		};
+		C5C5206519837B3F00ECA0DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5C5206619837B3F00ECA0DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5C5207719837B3F00ECA0DC /* MHFancyPantsSwiftExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5C5207A19837B3F00ECA0DC /* MHFancyPantsSwiftExampleTests.swift */,
+				C5C5207819837B3F00ECA0DC /* Supporting Files */,
+			);
+			path = MHFancyPantsSwiftExampleTests;
+			sourceTree = "<group>";
+		};
+		C5C5207819837B3F00ECA0DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5C5207919837B3F00ECA0DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5C5208819837DB100ECA0DC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C5C52091198382FC00ECA0DC /* MHFancyPants.h */,
+				C5C52092198382FC00ECA0DC /* MHFancyPants.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5C5206119837B3F00ECA0DC /* MHFancyPantsSwiftExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5C5207E19837B3F00ECA0DC /* Build configuration list for PBXNativeTarget "MHFancyPantsSwiftExample" */;
+			buildPhases = (
+				C5C5205E19837B3F00ECA0DC /* Sources */,
+				C5C5205F19837B3F00ECA0DC /* Frameworks */,
+				C5C5206019837B3F00ECA0DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHFancyPantsSwiftExample;
+			productName = MHFancyPantsSwiftExample;
+			productReference = C5C5206219837B3F00ECA0DC /* MHFancyPantsSwiftExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5C5207319837B3F00ECA0DC /* MHFancyPantsSwiftExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5C5208119837B3F00ECA0DC /* Build configuration list for PBXNativeTarget "MHFancyPantsSwiftExampleTests" */;
+			buildPhases = (
+				C5C5207019837B3F00ECA0DC /* Sources */,
+				C5C5207119837B3F00ECA0DC /* Frameworks */,
+				C5C5207219837B3F00ECA0DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5C5207619837B3F00ECA0DC /* PBXTargetDependency */,
+			);
+			name = MHFancyPantsSwiftExampleTests;
+			productName = MHFancyPantsSwiftExampleTests;
+			productReference = C5C5207419837B3F00ECA0DC /* MHFancyPantsSwiftExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5C5205A19837B3E00ECA0DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Martin Hartl";
+				TargetAttributes = {
+					C5C5206119837B3F00ECA0DC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C5C5207319837B3F00ECA0DC = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C5C5206119837B3F00ECA0DC;
+					};
+				};
+			};
+			buildConfigurationList = C5C5205D19837B3E00ECA0DC /* Build configuration list for PBXProject "MHFancyPantsSwiftExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5C5205919837B3E00ECA0DC;
+			productRefGroup = C5C5206319837B3F00ECA0DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5C5206119837B3F00ECA0DC /* MHFancyPantsSwiftExample */,
+				C5C5207319837B3F00ECA0DC /* MHFancyPantsSwiftExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5C5206019837B3F00ECA0DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C5206D19837B3F00ECA0DC /* Main.storyboard in Resources */,
+				C5C5209019837EE200ECA0DC /* MHTheme.plist in Resources */,
+				C5C5206F19837B3F00ECA0DC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C5207219837B3F00ECA0DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5C5205E19837B3F00ECA0DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C5206A19837B3F00ECA0DC /* ViewController.swift in Sources */,
+				C5C5206819837B3F00ECA0DC /* AppDelegate.swift in Sources */,
+				C5C52093198382FC00ECA0DC /* MHFancyPants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C5207019837B3F00ECA0DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C5207B19837B3F00ECA0DC /* MHFancyPantsSwiftExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5C5207619837B3F00ECA0DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5C5206119837B3F00ECA0DC /* MHFancyPantsSwiftExample */;
+			targetProxy = C5C5207519837B3F00ECA0DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5C5206B19837B3F00ECA0DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5C5206C19837B3F00ECA0DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5C5207C19837B3F00ECA0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5C5207D19837B3F00ECA0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5C5207F19837B3F00ECA0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MHFancyPantsSwiftExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MHFancyPantsSwiftExample/MHFancyPantsSwiftExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5C5208019837B3F00ECA0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MHFancyPantsSwiftExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MHFancyPantsSwiftExample/MHFancyPantsSwiftExample-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C5C5208219837B3F00ECA0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MHFancyPantsSwiftExample.app/MHFancyPantsSwiftExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MHFancyPantsSwiftExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		C5C5208319837B3F00ECA0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MHFancyPantsSwiftExample.app/MHFancyPantsSwiftExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MHFancyPantsSwiftExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5C5205D19837B3E00ECA0DC /* Build configuration list for PBXProject "MHFancyPantsSwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C5207C19837B3F00ECA0DC /* Debug */,
+				C5C5207D19837B3F00ECA0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5C5207E19837B3F00ECA0DC /* Build configuration list for PBXNativeTarget "MHFancyPantsSwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C5207F19837B3F00ECA0DC /* Debug */,
+				C5C5208019837B3F00ECA0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5C5208119837B3F00ECA0DC /* Build configuration list for PBXNativeTarget "MHFancyPantsSwiftExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C5208219837B3F00ECA0DC /* Debug */,
+				C5C5208319837B3F00ECA0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5C5205A19837B3E00ECA0DC /* Project object */;
+}

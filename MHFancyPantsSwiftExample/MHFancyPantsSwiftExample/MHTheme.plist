@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>uiedgetest</key>
+	<dict>
+		<key>right</key>
+		<real>4.5</real>
+		<key>bottom</key>
+		<real>3.5</real>
+		<key>left</key>
+		<real>2.5</real>
+		<key>top</key>
+		<real>1.5</real>
+	</dict>
+	<key>view2Center</key>
+	<dict>
+		<key>x</key>
+		<integer>48</integer>
+		<key>y</key>
+		<integer>99</integer>
+	</dict>
+	<key>view1Frame</key>
+	<dict>
+		<key>x</key>
+		<integer>150</integer>
+		<key>y</key>
+		<integer>320</integer>
+		<key>width</key>
+		<integer>13</integer>
+		<key>height</key>
+		<integer>13</integer>
+	</dict>
+	<key>view1AnimationDuration</key>
+	<real>2.3</real>
+	<key>view1BackgroundColor</key>
+	<string>563214</string>
+	<key>view2BackGroundColor</key>
+	<string>125214</string>
+	<key>text</key>
+	<string>This is a test</string>
+</dict>
+</plist>
