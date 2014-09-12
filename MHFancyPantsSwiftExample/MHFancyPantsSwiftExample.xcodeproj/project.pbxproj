@@ -422,6 +422,7 @@
 				C5C5208019837B3F00ECA0DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5C5208119837B3F00ECA0DC /* Build configuration list for PBXNativeTarget "MHFancyPantsSwiftExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +431,7 @@
 				C5C5208319837B3F00ECA0DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
