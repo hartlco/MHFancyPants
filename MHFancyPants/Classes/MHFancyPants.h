@@ -24,6 +24,10 @@
 
 @interface MHFancyPants : NSObject
 
+/*!
+ * @discussion Sets the plist file from which the values will be read
+ * @param name the filename of the plist without file extension
+ */
 + (void)configWithPlistName:(NSString *)name;
 
 + (BOOL)boolForKey:(NSString *)key;
